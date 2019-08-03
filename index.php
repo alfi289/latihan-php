@@ -9,10 +9,16 @@
 </head>
 <body>
     <?php
-    $a = 5;
+    $a = 1;
     $b = 36;
     $c = $a + $b;
     
+
+for($a==1;$a<=10;$a++){
+    $b = $a*$a;
+        echo "$a x " . $a . "=" . $b . "<br>";
+}
+
     if($c <= 10) {
         echo '<h1 style="color:green">' . $c .'<h1>';
     }elseif($c <= 20) {
