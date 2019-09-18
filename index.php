@@ -15,8 +15,14 @@
     
 
 for($a==1;$a<=10;$a++){
-    $b = $a*$a;
-        echo "$a x " . $a . "=" . $b . "<br>";
+    $b = $a;
+    echo "$a x " . $a . "=" . $b;
+    if($b==1||$b==3||$b==5||$b==7||$b==9){
+        echo " ganjil" . "<br>";
+    }
+    else{
+        echo " genap <br>";
+    }
 }
 
     if($c <= 10) {
